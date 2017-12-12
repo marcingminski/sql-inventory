@@ -1,2 +1,3 @@
 # sql-inventory
-Yet another SQL Server Inventory
+Yet another SQL Server Inventory.
+Check Wiki for more details
