@@ -306,7 +306,11 @@ Workflow Get-SQLInventory {
                 $dns=$nul
                 try {
                     $dns=([system.net.dns]::GetHostByAddress($server)).hostname
-                    if ($dns) {$server=$dns}                
+                    if ($dns) {
+                        if ($dns -notlike "unmanaged*") {
+                           $server=$dns
+                           }
+                       }           
                 }
                 catch {$dns=$($Error[0].Exception.Message)}
             } else {
