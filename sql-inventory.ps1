@@ -1,6 +1,7 @@
 <#
 ----------------------------------------------------------------------------------------
 SQL Server Inventory
+https://github.com/marcingminski/sql-inventory
 ----------------------------------------------------------------------------------------
 Description:
     Super Simple SQL server inventory tool that produces HTML output with simple
